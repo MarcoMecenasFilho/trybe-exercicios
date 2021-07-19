@@ -1,0 +1,6 @@
+git
+hut
+unyx
+bash 
+linux
+ubuntu
