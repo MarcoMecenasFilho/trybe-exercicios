@@ -9,7 +9,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
 
-### Bloco 1: [Introdução - Unix & Shell]
+### Bloco 1: [Introdução - Unix & Shell] (https://github.com/MarcoMecenasFilho/trybe-exercicios/tree/master/Fundamentos/bloco-01-unix-bash-e-shell)
 
 :ballot_box_with_check: 1-3: _Unix & Shell- Part 1_
 
@@ -17,7 +17,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 :ballot_box_with_check: 1-4: _Unix & Shell- Part 2_
 
 
-### Bloco 2: [Git & GitHub]
+### Bloco 2: [Git & GitHub] (https://github.com/MarcoMecenasFilho/trybe-exercicios/tree/master/Fundamentos/bloco-02-git-github-internet)
 
 :ballot_box_with_check: 2-1: _O que é e para que serve?_
 
