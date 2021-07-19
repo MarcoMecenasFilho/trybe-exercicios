@@ -1,6 +1,6 @@
 # Trybe
  
-:rotating_light: If you are not a _portuguese_ speaker, you can find the _english_ version of this document [here](#english-version---trybe). 
+:rotating_light: If you are not a _portuguese_ speaker, you can find the _english_ version of this document [here](#english-version---trybe).  
 
 Este repositório contêm todas as atividades de aprendizagem que estão sendo desenvolvidas por  [Marco Antonio de Mecenas FIlho](https://www.linkedin.com/in/marcomecenasfilho/) enquanto estuda na [Trybe](https://www.betrybe.com/) :rocket: (2021-2022).
 
@@ -449,7 +449,10 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 :ballot_box_with_check: 1-4: _Unix & Shell- Part 2_
 
 ### Part 2: [Git & GitHub]
+<<<<<<< HEAD
 
+=======
+>>>>>>> e75f1443b10465387ad19926f3fbd7c364b54e0a
 :ballot_box_with_check: 2-1: _What is it and what is it used for?_
 
 :black_large_square: 2-2: _Understanding the commands_
