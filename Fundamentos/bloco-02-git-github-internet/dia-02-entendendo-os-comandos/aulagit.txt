@@ -1,0 +1,8 @@
+git
+hut
+unyx
+bash 
+linux
+ubuntu
+HTML
+CSS
