@@ -1,8 +1,8 @@
 # Trybe
  
-:rotating_light: If you are not a _portuguese_ speaker, you can find the _english_ version of this document [here](#english-version---trybe).  
+:rotating_light: If you are not a _portuguese_ speaker, you can find the _english_ version of this document [here](#english-version---trybe). 
 
-Este repositório contêm todas as atividades de aprendizagem que estão sendo desenvolvidas por  [Marco Antonio de Mecenas FIlho](https://www.linkedin.com/in/marcomecenasfilho/) enquanto estuda na [Trybe](https://www.betrybe.com/) :rocket: (2021-2022).
+Este repositório contêm todas as atividades de aprendizagem que estão sendo desenvolvidas por  [Marco Antonio de Mecenas Filho](https://www.linkedin.com/in/marcomecenasfilho/) enquanto estuda na [Trybe](https://www.betrybe.com/) :rocket: (2021-2022).
 
 O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
@@ -12,7 +12,6 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ### Bloco 1: [Introdução - Unix & Shell](https://github.com/MarcoMecenasFilho/trybe-exercicios/tree/master/Fundamentos/bloco-01-unix-bash-e-shell)
 
 :ballot_box_with_check: 1-3: _Unix & Shell- Part 1_
-
 
 :ballot_box_with_check: 1-4: _Unix & Shell- Part 2_
 
@@ -38,7 +37,6 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 :black_large_square: 3-5: _Projeto - Lesson Learned_
   
-
 ### Bloco 4: Introdução - JavaScript e Lógica
 
 :black_large_square:  4-1: _JavaScript - Primeiros passos_
@@ -86,6 +84,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 :black_large_square: 6-5: _CSS Responsivo - Mobile First_
 
 :black_large_square: 6-6: _Projeto - Trybewarts_
+
 
 ### Bloco 7: JavaScript ES6 & Testes Unitários
 
@@ -145,16 +144,20 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 :black_large_square: 11-3: _Projeto - Movie Cards Library_
 
  
+ 
 ### Bloco 12: Componentes com Estado, Eventos e Formulários com React
 
 :black_large_square: 12-1: _Components com estado e eventos_
 
 :black_large_square: 12-2: _Formulários no React_
+
 :black_large_square: 12-3: _Projeto - Movie Cards Library Stateful_
+
 
 ### Bloco 13: Ciclo de Vida de Componentes e React Router
 
 :black_large_square: 13-1: _Ciclo de vida de componentes_
+
 :black_large_square: 13-2: _React Router_
 
 :black_large_square: 13-3: _Projeto - Movie Cards Library CRUD_
@@ -190,6 +193,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 :black_large_square: 16-5: _Testes em React-Redux_
 
 :black_large_square:16-6: _Projeto - Trybe Wallet_
+
   
 
 ### Bloco 17: Projeto React
@@ -280,6 +284,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 :black_large_square: 25-3: _Projeto - Aggregations_
  
 ### Bloco 26: Introdução - NodeJS
+
 
 :black_large_square: 26-1: _NodeJS - Introdução_
 
@@ -431,9 +436,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
  
 # [...]
 
+
  # English version - Trybe
 
- This repository contains all activities that are being developed by  _[Marco Antonio de Mececenas Filho](https://www.linkedin.com/in/marcomecenasfilho/)_  while studying at  [Trybe](https://www.betrybe.com/)  🚀 (2020 - 2021).
+
+ This repository contains all activities that are being developed by  _[Marco Antonio de Mecenas Filho](https://www.linkedin.com/in/marcomecenasfilho/)_  while studying at  [Trybe](https://www.betrybe.com/)  🚀 (2020 - 2021).
 
 The web development training program from Trybe has a workload of  **1500 hours**  that covers front-end, back-end, computer science, software engineering, agile methodologies, and soft skills.
 
@@ -441,19 +448,22 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 ## Web development fundamentals :hourglass_flowing_sand:
 
-### Part 1: [Introduction - Unix & Shell]
+
+### Part 1: [Introduction - Unix & Shell](https://github.com/MarcoMecenasFilho/trybe-exercicios/tree/master/Fundamentos/bloco-01-unix-bash-e-shell)
 
 :ballot_box_with_check: 1-3: _Unix & Shell- Part 1_
 
 :ballot_box_with_check: 1-4: _Unix & Shell- Part 2_
 
-### Part 2: [Git & GitHub]
+
+### Part 2: [Git & GitHub](https://github.com/MarcoMecenasFilho/trybe-exercicios/tree/master/Fundamentos/bloco-02-git-github-internet)
 
 :ballot_box_with_check: 2-1: _What is it and what is it used for?_
 
-:black_large_square: 2-2: _Understanding the commands_
+:ballot_box_with_check: 2-2: _Understanding the commands_
 
-:black_large_square: 2-3: _Internet - Understading how it works_
+:ballot_box_with_check: 2-3: _Internet - Understading how it works_
+
 
 ### Part 3: Introduction - HTML & CSS
 
@@ -466,10 +476,11 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 :black_large_square: 3-4: _HTML semantic elements_
 
 :black_large_square: 3-5: _Project - Lesson Learned_
-  
-### Part 4: Introdução - JavaScript e Lógica
 
-:black_large_square:  4-1: _JavaScript - First steps_
+  
+### Part 4: Introduction - JavaScript and Logic
+
+:black_large_square: 4-1: _JavaScript - First steps_
 
 :black_large_square: 4-2: _JavaScript - Array e loop For_
 
@@ -480,7 +491,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 :black_large_square: 4-5: _Project - Playground Functions_
 
 
-### Part 5: Javascript: DOM, Events e Web Storage
+### Part 5: Javascript: DOM, Events and Web Storage
 
 :black_large_square: 5-1: _JavaScript - DOM and selectors_
 
@@ -490,7 +501,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :black_large_square:  5-4: _JavaScript - Web Storage_
 
-:black_large_square: 5.5: _Project: Art with Pixels_
+:black_large_square: 5.5: _Project - Art with Pixels_
 
 :black_large_square: 5-6: _Project - To Do List_
 
@@ -501,7 +512,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 :black_large_square: 5-7: _Bonus Project - Mysterious Card_
 
 
-### Part 6: HTML & CSS avançado
+### Part 6: advanced HTML & CSS 
 
 :black_large_square: 6-1: _HTML & CSS - Forms_
 
@@ -511,12 +522,13 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :black_large_square: 6-4: _CSS Flexbox - Part 2_
 
-:black_large_square: 6-5: _CSS Responsive - Mobile First_
+:black_large_square: 6-5: _Responsive CSS - Mobile First_
 
 :black_large_square: 6-6: _Project - Trybewarts_
 
 
 ### Part 7: JavaScript ES6 & Unit testing
+
 
 :black_large_square: 7-1: _JavaScript ES6 - let, const, arrow functions and template literals_
 
@@ -537,7 +549,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :black_large_square: 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
 
-:black_large_square: 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring and more_
+:black_large_square: 8-5: _JavaScript ES6 - Spread operator, rest parameter, destructuring and more_
 
 :black_large_square: 8-5: _Project - Zoo functions_
 
@@ -560,6 +572,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 :black_large_square: 10-3: _Jest - Simulating behaviors_
 
 :black_large_square: 10-4: _Project - Asynchronous Jest and Mocking_
+
 
 ## Front-end development :hourglass_flowing_sand:
 
@@ -644,6 +657,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :black_large_square: 19-1: _Project - Recipes app_
 
+
 ## Back-end development :hourglass_flowing_sand:
 
 
@@ -710,7 +724,6 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :black_large_square: 25-3: _Project - Aggregations_
 
-
 ### Part 26: Introduction - NodeJS
 
 :black_large_square: 26-1: _NodeJS - Introduçtion_
@@ -749,6 +762,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :black_large_square: 28-3: _Project - Cookmaster_
 
+
 ### Part 29: Deployment
 
 :black_large_square: 29-1: _Introduction - Deploy_
@@ -786,7 +800,7 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 ### Part 32: Project
 
--:black_large_square: 34-1: _Project - Trybeer V_
+:black_large_square: 34-1: _Project - Trybeer V_
 
 
 ## Computer Science :hourglass_flowing_sand:
