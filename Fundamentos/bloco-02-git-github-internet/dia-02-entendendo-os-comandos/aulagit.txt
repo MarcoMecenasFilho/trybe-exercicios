@@ -4,6 +4,4 @@ unyx
 bash 
 linux
 ubuntu
-Internet 
-JavaScript
-React
+
