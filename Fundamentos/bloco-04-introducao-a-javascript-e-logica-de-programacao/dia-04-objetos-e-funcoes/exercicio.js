@@ -51,9 +51,6 @@ for(let key in car) {
 // Multiplicação (a * b)
 // Divisão (a / b)
 // Módulo (a % b)
-let a =15;
-let b =23;
-
 function sum(a, b){
   return a+b;
 }
@@ -69,4 +66,19 @@ function div(a,b) {
 function mod(a,b) {
   return a%b;
 }
-console.log(sum(a, b), sub(a, b), mult(a, b), div(a, b), mod(a, b));
+sum(8,2)
+
+console.log(sum(1, 7), sub(2, 4), mult(3, 9), div(12, 3), mod(10, 5));
+
+// texte
+function canDrive(age){
+  if (age >= 18 ){
+    return 'Pode guiar irmão';
+  }else if (age>= 15){
+    return 'Pode não irmão'
+  }else{
+    return 'Cade seu responsavel criança?'
+  }
+}
+
+console.log(canDrive(16));
