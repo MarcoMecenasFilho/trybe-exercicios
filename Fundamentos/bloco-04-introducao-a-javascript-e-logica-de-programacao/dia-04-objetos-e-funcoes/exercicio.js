@@ -43,3 +43,30 @@ let car = {
 for(let key in car) {
   console.log(key, car[key])
 }
+
+// Pegue cada um dos exercícios da primeira parte das nossas aulas de JavaScript e faça com que todos eles sejam funções de um mesmo arquivo. 
+// As variáveis que você define no começo de cada arquivo devem ser removidas e transformadas em parâmetros das funções. Por exemplo:
+// Adição (a + b)
+// Subtração (a - b)
+// Multiplicação (a * b)
+// Divisão (a / b)
+// Módulo (a % b)
+let a =15;
+let b =23;
+
+function sum(a, b){
+  return a+b;
+}
+function sub(a,b){
+  return a-b;
+}
+function mult(a, b) {
+  return a*b;
+}
+function div(a,b) {
+  return a/b;
+}
+function mod(a,b) {
+  return a%b;
+}
+console.log(sum(a, b), sub(a, b), mult(a, b), div(a, b), mod(a, b));
