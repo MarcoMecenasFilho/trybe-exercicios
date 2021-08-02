@@ -70,7 +70,7 @@ sum(8,2)
 
 console.log(sum(1, 7), sub(2, 4), mult(3, 9), div(12, 3), mod(10, 5));
 
-// texte
+// teste
 function canDrive(age){
   if (age >= 18 ){
     return 'Pode guiar irmão';
@@ -82,3 +82,89 @@ function canDrive(age){
 }
 
 console.log(canDrive(16));
+
+// Exercício aula:
+// Imprima no console uma mensagem de boas-vindas para a personagem 
+// incluindo seu nome.
+let info = {
+  personagem: 'Margarida',
+  origem: 'Pato Donald',
+  nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+};
+console.log('Bem vinda, ' + info['personagem'])
+
+// Insira no objeto uma nova propriedade com o nome de chave 'recorrente' e o 
+// valor 'Sim' e, em seguida, imprima o objeto no console. Valor esperado no console
+
+info['recorrente'] = 'sim'
+console.log(info)
+// Faça um for/in que mostre todas as chaves do objeto. Valor esperado no console:
+
+for(let key in info) {
+  console.log(key);
+}
+// 4 - Faça um novo for/in , mas agora mostre todos os valores das chaves do objeto.
+
+for(let key in info) {
+  console.log(info[key]);
+}
+
+// Agora, defina um segundo objeto com a mesma estrutura (as mesmas chaves) do primeiro e os 
+// seguintes valores: 'Tio Patinhas', 'Christmas on Bear Mountain, Dell's Four Color Comics #178', 
+// 'O último MacPatinhas', 'Sim'. Então, imprima os valores de cada objeto juntos de acordo com cada 
+// uma das chaves.
+let info = {
+  personagem: 'Margarida',
+  origem: 'Pato Donald',
+  nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+
+};
+
+info['recorrente'] = 'sim'
+
+let info2= {
+  personagem: 'Tio Patinhas',
+  origem: 'Christmas on Bear Mountain, dell’s Four Color COmics #178',
+  nota: ' o último MacPatinhas',
+  recorrente: 'sim',
+};
+
+for ( let properties in info) {
+  if (properties==='recorrente' &&
+  info[properties]==='sim' &&
+  info2[properties]==='sim' 
+  ){
+    console.log("Ambos recorrentes");
+  }else{
+    console.log(info[properties] + ' e ' + info2[properties]);
+  }
+}
+
+//  Crie uma função que receba uma string e retorne true se for um palíndromo , ou false , se não for.
+
+function verificaPalindrome(word) {
+  let reverse = word.split('').reverse().join('');
+  if (reverse === word) {
+    return true;
+  } else {
+    return false;
+  }
+}
+console.log(verificaPalindrome('arara')); 
+console.log(verificaPalindrome('desenvolvimento'));
+
+
+// Crie uma função que receba um array de inteiros e retorne o índice do maior valor.
+
+
+function indiceDoMaior(numeros) {
+  let indiceMaior = 0;
+  for (let indice in numeros) {
+    if (numeros[indiceMaior] < numeros[indice]) {
+      indiceMaior = indice;
+    }
+  }
+  return indiceMaior;
+}
+
+console.log(indiceDoMaior([2, 3, 6, 7, 10, 1])); 
