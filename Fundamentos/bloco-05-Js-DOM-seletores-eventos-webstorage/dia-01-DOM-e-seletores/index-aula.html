@@ -1,0 +1,37 @@
+<!-- 1-Recupere o elemento que contém o título da página e faça algo com ele, 
+       como alterá-lo para o nome do seu filme favorito.
+     2-Agora recupere o segundo parágrafo e use sua criatividade para alterá-lo.
+     3-Por fim, recupere o subtítulo e altere-o também.
+     4-Adicione uma classe igual para os dois parágrafos.
+     5-Recupere os seus parágrafos via código JavaScript , usando a função getElementsByClassName ;
+     6-Altere algum estilo do primeiro deles.
+     7-Recupere o subtítulo e altere a cor dele usando a função getElementsByTagName .-->
+
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p class="paragra" id="paragraph">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p class="paragra" id="second-paragraph">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+      document.getElementById('page-title').innerText="Django Livre é o melhor filme do Tarantino";
+      document.getElementById('second-paragraph').innerText="A minha comida prefirida é Strogonoff com batata frita e arroz , mesmo eu sabendo que esse prato não é o mais gostoso do mundo. Mas para mim tem muita memória afetiva"
+      const secondParagraph= document.getElementById('second-paragraph');
+      secondParagraph.style.color = 'blue';
+      document.getElementById('subtitle').innerText='Dias de lutas, dias de glória!!!'
+      document.getElementsByClassName('paragra');
+      const paragra = document.getElementsByClassName('paragra')[0];
+      paragra.style.color = 'pink';
+      document.getElementsByTagName('h4')[0];
+      const subtit = document.getElementsByTagName('h4')[0];
+      subtit.style.color = 'green';
+
+    </script>
+  </body>
+</html>
