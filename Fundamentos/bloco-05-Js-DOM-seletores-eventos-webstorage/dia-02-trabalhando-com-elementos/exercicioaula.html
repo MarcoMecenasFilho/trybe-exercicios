@@ -1,0 +1,90 @@
+<!-- -Acesse o elemento elementoOndeVoceEsta .
+-Acesse pai a partir de elementoOndeVoceEsta e adicione uma color a ele.
+-Acesse o primeiroFilhoDoFilho e adicione um texto a ele. Você se lembra dos vídeos da aula anterior, como fazer isso?
+-Acesse o primeiroFilho a partir de pai .
+-Agora acesse o primeiroFilho a partir de elementoOndeVoceEsta .
+Agora acesse o texto Atenção! a partir de elementoOndeVoceEsta .
+Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta .
+Agora acesse o terceiroFilho a partir de pai . -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <main id="paiDoPai">
+      <section id="pai">
+        <section id="primeiroFilho"></section>
+        <section id="elementoOndeVoceEsta">
+          <section id="primeiroFilhoDoFilho"></section>
+          <section id="segundoEUltimoFilhoDoFilho"></section>
+        </section>
+        Atenção!
+        <section id="terceiroFilho"></section>
+        <section id="quartoEUltimoFilho"></section>
+      </section>
+    </main>
+    <script>
+      // part 1
+        let elementosun = document.getElementById('elementoOndeVoceEsta');
+      
+        let elementoFather = document.getElementById('elementoOndeVoceEsta').parentElement;
+        elementoFather.style.color = "blue";
+
+        let  firstNetinho = document.getElementById('primeiroFIlhoDoFilho');
+        firstNetinho.innerHTML = 'Ia netinho de boas ? seu vô é mor maneiro'
+
+     
+        let paifilho = document.getElementById('pai').firstElementChild;
+     
+        let mySun = document.getElementById('elementoOndeVoceEsta').previousElementSibling;
+      
+        let nextText = document.getElementById('elementoOndeVoceEsta').nextSibling;
+
+        let thirthSun = document.getElementById('elementoOndeVoceEsta').nextElementSibling; 
+
+        let thirthSunAgain = document.getElementById('pai').lastElementChild.previousElementSibling; 
+      // part 2
+      // Crie um irmão para elementoOndeVoceEsta .
+        let father = document.getElementById('pai');
+        let Bro = document.createElement('section');
+        bro.id='brodobro';
+        father.appenChild(bro)
+      // Crie um filho para elementoOndeVoceEsta .
+        let daddy = document.getElementById('elementoOndeVoceEsta');
+        let sunDaddy = document.createElement('section');
+        sunDaddy.id = 'SunDeOndeEstou'
+        daddy.appendChild(sunDaddy);
+      // Crie um filho para primeiroFilhoDoFilho .
+        let fatherFirstSunOfSun = document.getElementById('primeiroFilhoDoFIlho');
+        let sunOfFirstSunOfSun = document.createElement('section');
+        sunOfFirstSunFfSun.id = ('FilhoDoprimeiroFIlhodoFilho');
+        fatherFirstSunOfSun.appendChild(sunOfFirstSunOfSun);
+      // A partir desse filho criado, acesse terceiroFilho .
+        let juninho = sunOfFirstSunOfSun.parentElement.parentElement.nextElementSibling;
+        console.log(juninho);
+      // Part 3
+      // Remova todos os elementos filhos de paiDoPai exceto pai , elementoOndeVoceEsta e primeiroFilhoDoFilho .
+    </script>
+   
+   
+  </body>
+</html>
+
+
+<!-- parentNode : retorna o nó pai.
+parentElement : retorna o elemento pai.
+childNodes : retorna um NodeList com todos os nós filhos.
+children : retorna um HTMLCollection com todos os elementos filhos.
+firstChild : retorna o primeiro nó filho.
+firstElementChild : retorna o primeiro elemento filho.
+lastChild : retorna o último nó filho.
+lastElementChild : retorna o último elemento filho.
+nextSibling : retorna o próximo nó.
+nextElementSibling : retorna o próximo elemento.
+previousSibling : retorna o nó anterior.
+previousElementSibling : retorna o elemento anterior. -->
