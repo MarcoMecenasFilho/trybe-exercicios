@@ -43,11 +43,25 @@ for (let index = 1; index <= 3; index += 1 ){
   sunsOfmain.innerHTML = 'show' + index; 
   mainSection.appendChild(sunsOfmain);
 }
-// Adicione a classe title na tag h1 criada;
+//10 -  Adicione a classe title na tag h1 criada;
 textH1.className = 'title';
-// Adicione a classe description nas 3 tags h3 criadas;
+//11 -  Adicione a classe description nas 3 tags h3 criadas;
+let h3suns = document.getElementsByTagName('h3');
+for (let index = 0; index < 3; index +=1){
+  h3suns[index].className = 'description';
+}
 // Remova a section criado no passo 5 (aquele que possui a classe left-content ). Utilize a função .removeChild() ;
+let leftContent = document.getElementsByClassName('left-content')[0];
+mainSection.removeChild(leftContent);
 // Centralize a section criado no passo 6 (aquele que possui a classe right-content ). Dica: para centralizar, basta configurar o margin-right: auto da section ;
+let rigthContent = document.getElementsByClassName('right-content')[0];
+rigthContent.style.marginRight = 'auto';
 // Troque a cor de fundo do elemento pai da section criada no passo 3 (aquela que possui a classe center-content ) para a cor verde;
+let fatherOfCenterContent = document.getElementsByClassName('center-content')[0].parentNode;
+fatherOfCenterContent.style.background = 'green'
 // Remova os dois últimos elementos ( nove e dez ) da lista criada no passo 8.
+let ulLits = document.getElementsByTagName('ul')[0];
+ulLits.removeChild(ulLits.lastChild);
+ulLits.removeChild(ulLits.lastChild);
+
 
