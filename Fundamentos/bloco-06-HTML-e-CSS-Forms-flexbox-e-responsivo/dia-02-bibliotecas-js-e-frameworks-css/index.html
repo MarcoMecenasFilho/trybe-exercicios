@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap-5.1.0-dist/css/bootstrap.min.css">
+  <script src="jquery-3.6.0.min.js"></script>
+  <script src="bootstrap-5.1.0-dist/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+  <link  rel = " stylesheet " type = " text / css " href = " https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css ">
+</head>
+<body>
+  <form method="GET" id="forms" name="formulario">Formulário show show
+    <fieldset>
+      <div class="form-control">
+       <label for="nome-completo">Nome:</label>
+        <input class="input-container" type="text" name="nome-completo" id="nome-completo" maxlength="40" required>
+      </div>
+      <div class="form-control">
+        <label for="email">E-mail:</label>
+        <input class="input-container" type="email" name="emil" id="email" maxlength="50" required>
+      </div>
+      <div class="form-control">
+       <label for="cpf">CPF:</label>
+       <input class="input-container" type="number" placeholder="Apenas numeros" name="cpf" id="cpf" maxlength="1" required>
+      </div>
+      <div class="form-control">
+        <label for="Endereço">Endereço:</label>
+        <input class="input-container" type="text" name="Endereço" id="endereço" maxlength="200" required>
+      </div>
+      <div class="form-control">
+        <label for="cidade">Cidade:</label>
+        <input class="input-container" type="text" name="cidade" id="cidade" maxlength="28" required>
+      </div>
+      <div class="form-control">
+        <label for="estado">Estado:</label>
+        <select name="estado" id="estado" required>
+         <option disabled selected value>Selecione seu estado</option>
+        </select>
+      </div>
+      
+      <div class="form-control">
+        <label for="tipo1">Apartamento</label>
+        <input  type="radio" name="tipo" id="tipo1" required>
+        <label for="tipo2">Casa</label>
+        <input  type="radio" name="tipo" id="tipo2" required>
+      </div>  
+    </fieldset>
+    <fieldset>
+      <div class="form-control">
+        <label for="resumo">Resumo do Currículo:</label>
+        <textarea class="input-container" id="resumo" name="resumo" maxlength="1000" cols="20" rows="3" required></textarea>
+      </div>
+      <div class="form-control">
+        <label for="cargo">Cargo:</label>
+        <input class="input-container" type="text" id="cargo" name="cargo" maxlength="40" required>
+      </div>
+      <div class="form-control">
+        <label for="cargo-description">Descrição do cargo:</label>
+        <input class="input-container" type="text" id="cargo-description" name="cargo-description" maxlength="500" required>
+      </div>
+      <div class="form-control">
+        <label for="startDate">Data de inicio:</label>
+        <input class="input-container" type="text" class="input class="input-container"-data" name="startDate" value="" required>
+      </div>
+    </fieldset>
+    <button class="submit-button btn btn-success buttons" type="submit">Enviar</button>
+    <button class="clear-button btn btn-danger buttons-red" type="button">Limpar</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
