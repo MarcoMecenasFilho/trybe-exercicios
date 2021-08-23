@@ -9,9 +9,7 @@ o header deverá estar similar a imagem abaixo:
 Header exercicio 2
 
 3 - Adicione uma propriedade Flexbox que modifique o tamanho padrão do container
- do menu quando a largura da página for maior que 768px . Após aplicar a 
- propriedade o header deverá estar similar a imagem abaixo:
-Header exercicio 3
+ do menu quando a largura da página for maior que 768px .
 
 4 - Utilize a propriedade align-self no elemento correto para que o header da página
  tenha o seguinte comportamento:
@@ -38,16 +36,20 @@ body {
 .logo-container {
   display: flex;
   justify-content: center;
+  flex-basis: 268px;
 }
 
 .menu-container {
   display: flex;
+  flex-basis: 500px;
+  flex-grow: 1;
 }
 
 .menu-container ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  align-self: center;
 }
 
 .menu-container li {
@@ -58,8 +60,16 @@ body {
   margin-right: 10px;
 }
 
-/* 1 - Aplique uma base de 350px para seu container aside . Deverá ficar 
-similar a imagem abaixo:
+.header-container .menu-container {
+  order: 2;
+}
+
+.header-container .logo-container {
+  order: 1;
+}
+
+
+/* 1 - Aplique uma base de 350px para seu container aside .
 
 2 - Aplique um alinhamento para centralizar e outro para expandir. Seu aside
  apresentar o seguinte comportamento:
@@ -80,6 +90,8 @@ similar a imagem abaixo:
 .movie-container {
   display: flex;
   flex-direction: column;
+  flex-basis: 700px;
+  flex-grow: 10;
 }
 
 .movie-container h2 {
@@ -101,12 +113,18 @@ similar a imagem abaixo:
   height: 150px;
   justify-content: center;
   margin: 10px;
+  flex-basis: 16%;
+  flex-grow: 1;
 }
 
 .aside-container {
   display: flex;
   flex-direction: column;
   margin: 20px;
+  flex-basis: 350px;
+  align-self: center;
+  flex-grow: 1;
+
 }
 
 .aside-container h3, h4 {
