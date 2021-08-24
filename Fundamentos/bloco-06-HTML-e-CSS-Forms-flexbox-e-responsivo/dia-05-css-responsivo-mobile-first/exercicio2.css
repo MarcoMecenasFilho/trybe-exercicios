@@ -1,6 +1,98 @@
+/* 
+1 - Utilizando a abordagem mobile first e media queries , crie três versões de 
+layout diferentes para essa página . Cada layout deve corresponder a um tamanho 
+diferente de página (pequeno, médio e grande) . Faça pelo menos um commit para 
+cada layout ;
+2 - Para fazer isso de forma adequada, você deve prestar atenção no conteúdo da 
+página e pensar em como mostrá-lo em cada um dos tamanhos de tela: Onde a lista de 
+capítulos deve estar posicionada?Como a história deve ser mostrada? Como o cabeçalho 
+deve ser posicionado? O que fazer com as informações do autor em cada tamanho de tela?
+3 - Talvez você precise alterar o HTML um pouco, adicionando elementos para 
+facilitar a estilização, ou talvez mudando um bloco de lugar dentro da página.
+ */
+
 html {
   box-sizing: border-box;
 }
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+body{
+  background-color: rgb(255, 235, 205);
+}
+
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+header nav {
+  display: none;
+}
+
+.aside-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  
+  
+}
+.aside-one h2 {
+  text-align: center;
+}
+
+.aside-one ul {
+  margin-left:  0px;
+}
+
+.aside-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aside-two h2 {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.aside-two ul {
+  font-size: 25px;
+  margin-left: 30px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-content h1 {
+  font-size: 22px;
+  text-align: center;
+
+}
+
+.main-content div {
+font-size: 30px;
+display: flex;
+flex-direction: column;
+margin: 0px 50px;
+align-items: center;
+text-align: justify;
+
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0px 50px;
+  text-align: justify;
+
 }
