@@ -1,0 +1,118 @@
+/* 1 - Faça o tamanho da fonte ser maior;
+2 - Faça o tamanho da fonte dos elementos h1 ser menor;
+3 - Aumente o espaçamento entre as figuras;
+4 - Adicione um pouco de margin na página.
+5 - Guarde a largura da tela no ponto que você identificou que o layout atual não 
+funcionou bem (por exemplo 800px) . Esse será o primeiro breakpoint do layout . 
+Um breakpoint é apenas um ponto onde estamos definindo que o design atual deve mudar;
+6 - Crie uma media query no seu arquivo CSS , usando a dimensão em pixels que você 
+guardou como o min-width do teste da media query . Dentro desse breakpoint , adicione os seguintes ajustes:
+Altere a cor de fundo (isso vai te ajudar a perceber quando a media query teve efeito) ;
+Ajuste o tamanho da fonte;
+Ajuste as margens da página;
+Faça as imagens serem mostradas em duas colunas.
+7 - Agora, você vai criar outro breakpoint para telas grandes. Redimensione sua tela 
+de novo para encontrar um novo breakpoint .
+8 - Crie uma nova media query no seu arquivo CSS usando a dimensão que você encontrou
+ para telas grandes (por exemplo 1300px) , e realize os seguintes ajustes dentro do breakpoint :
+Altere a cor de fundo;
+Ajuste o tamanho da fonte;
+Ajuste as margens da página;
+Adicione a propriedade max-width à página, para garantir que a largura das linhas 
+não fique muito grande. */
+
+body {
+  font-size: 30px;
+  margin: 5px  40px;
+  line-height: 30px;
+  background-color: blanchedalmond;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+h1 {
+  font-size: 30px;
+  text-align: center;
+
+}
+h2 {
+  font-size: 20px;
+  text-align: center;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    margin: 0;
+}
+
+@media screen and (min-width:760px){
+  body {
+    font-size: 50px;
+    margin: 10px  60px;
+    line-height: 60px;
+    background-color: rgb(189, 198, 250);
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+  }
+  h1 {
+    font-size: 50px;
+    text-align: center;
+
+  }
+  h2 {
+    font-size: 40px;
+    text-align: center;
+
+  }
+
+  img {
+      max-width: 100%;
+  }
+
+  figure {
+      margin: 0;
+}
+
+}
+
+
+@media screen and (min-width:1300px){
+  body {
+    font-size: 50px;
+    line-height: 80px;
+    background-color: rgb(198, 250, 189);
+    max-width: 80%;
+    align-items: center;
+    margin: auto;
+    
+    text-align: justify;
+  }
+  h1 {
+    font-size: 90px;
+    text-align: center;
+
+  }
+  h2 {
+    font-size: 60px;
+    text-align: center;
+
+  }
+
+  img {
+      max-width: 100%;
+  }
+
+  figure {
+      margin: 0;
+}
+
+
+
+}
