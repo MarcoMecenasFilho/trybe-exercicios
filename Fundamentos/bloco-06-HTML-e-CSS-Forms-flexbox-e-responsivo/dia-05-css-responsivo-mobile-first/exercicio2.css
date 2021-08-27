@@ -1,0 +1,228 @@
+/* 
+1 - Utilizando a abordagem mobile first e media queries , crie três versões de 
+layout diferentes para essa página . Cada layout deve corresponder a um tamanho 
+diferente de página (pequeno, médio e grande) . Faça pelo menos um commit para 
+cada layout ;
+2 - Para fazer isso de forma adequada, você deve prestar atenção no conteúdo da 
+página e pensar em como mostrá-lo em cada um dos tamanhos de tela: Onde a lista de 
+capítulos deve estar posicionada?Como a história deve ser mostrada? Como o cabeçalho 
+deve ser posicionado? O que fazer com as informações do autor em cada tamanho de tela?
+3 - Talvez você precise alterar o HTML um pouco, adicionando elementos para 
+facilitar a estilização, ou talvez mudando um bloco de lugar dentro da página.
+ */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+header p {
+  font-weight: 700;
+}
+
+ @media screen and (max-width:600px) {
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+  background-color: rgb(255, 235, 205);
+}
+
+header p {
+  font-size: 40px;
+}
+
+header nav {
+  display: none;
+}
+
+.aside-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.aside-one h2 {
+  text-align: center;
+}
+
+.aside-one ul {
+  margin-left:  0px;
+}
+
+.aside-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aside-two h2 {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.aside-two ul {
+  font-size: 25px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-content h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 20px 50px;
+
+}
+
+.main-content div {
+font-size: 30px;
+display: flex;
+flex-direction: column;
+margin: 0px 50px;
+align-items: center;
+text-align: justify;
+
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0px 50px;
+  margin-bottom: 30px;
+  text-align: justify;
+
+}
+
+footer h3 {
+  text-align: center;
+}
+
+}
+
+@media screen and  (min-width: 601px) {
+
+  body {
+    background-color: rgb(250, 192, 105);
+}
+
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: flex-end;
+  align-content: space-between;
+  margin-right: 60px;
+}
+
+header nav ul li {
+  margin: 5px 10px;
+}
+
+header p {
+  font-size: 50px;
+  margin-top: 0px;
+}
+
+.aside-one h2 {
+  font-size: 45px;
+  margin-top: 10px;
+  margin-left: 150px;
+
+}
+
+.aside-one ul {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.aside-one ul li {
+  font-size: 35px;
+  margin-left: 90px;
+}
+
+.aside-two {
+  display: flex;
+  flex-direction: column;
+}
+
+.aside-two h2 {
+font-size: 45px;
+margin-left: 150px;
+}
+
+.aside-two ul{
+  margin-top: 10px;
+  font-size: 35px;
+  margin-left: 90px;
+  
+}
+
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-content h1 {
+  font-size: 45px;
+  margin-left: 120px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+
+}
+
+.main-content div { 
+font-size: 50px;
+display: flex;
+flex-direction: column;
+margin: 0px 70px;
+align-items: center;
+text-align: justify;
+}
+
+.main-content div p {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer h3 {
+  font-size: 45px;
+  margin-left: 150px;
+  margin-top: 60px;
+}
+
+ footer p {
+   font-size: 33px;
+   margin: 0px 60px;
+   margin-bottom: 40px; 
+   text-align: justify;
+  }
+
+}
+  
