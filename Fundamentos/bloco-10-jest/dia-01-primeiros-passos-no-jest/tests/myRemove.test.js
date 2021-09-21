@@ -27,7 +27,7 @@ describe('Função myRemove()', () => {
     expect([1, 2, 3, 4]).toEqual(list);
   });
 
-  it('verifica se chamar o array [1, 2, 3, 4] retorna [1, 2, 4]',
+  it('verifica se chamar ([1, 2, 3, 4], 5) retorna [1, 2, 3, 4]',
   () => {
     expect([1, 2, 3, 4]).toEqual(myRemove([1, 2, 3, 4], 5))
   });
