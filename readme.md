@@ -486,92 +486,92 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 :ballot_box_with_check: 4-3: _JavaScript - Programming Logic and Algorithms_
 
-:black_large_square: 4-4: _JavaScript - Objects and functions_
+::ballot_box_with_check: 4-4: _JavaScript - Objects and functions_
 
-:black_large_square: 4-5: _Project - Playground Functions_
+::ballot_box_with_check: 4-5: _Project - Playground Functions_
 
 
 ### Part 5: Javascript: DOM, Events and Web Storage
 
-:black_large_square: 5-1: _JavaScript - DOM and selectors_
+::ballot_box_with_check: 5-1: _JavaScript - DOM and selectors_
 
-:black_large_square: 5-2: _JavaScript - Working with elements_
+::ballot_box_with_check: 5-2: _JavaScript - Working with elements_
 
-:black_large_square: 5-3: _JavaScript - Events_
+::ballot_box_with_check: 5-3: _JavaScript - Events_
 
-:black_large_square:  5-4: _JavaScript - Web Storage_
+::ballot_box_with_check:  5-4: _JavaScript - Web Storage_
 
-:black_large_square: 5.5: _Project - Art with Pixels_
+::ballot_box_with_check: 5.5: _Project - Art with Pixels_
 
-:black_large_square: 5-6: _Project - To Do List_
+::ballot_box_with_check: 5-6: _Project - To Do List_
 
-:black_large_square: 5-7: _Bonus Project - Meme Generator_
+::ballot_box_with_check: 5-7: _Bonus Project - Meme Generator_
 
-:black_large_square: 5-7: _Bonus Project - Guess the Colour_
+::ballot_box_with_check: 5-7: _Bonus Project - Guess the Colour_
 
-:black_large_square: 5-7: _Bonus Project - Mysterious Card_
+::ballot_box_with_check: 5-7: _Bonus Project - Mysterious Card_
 
 
 ### Part 6: advanced HTML & CSS 
 
-:black_large_square: 6-1: _HTML & CSS - Forms_
+::ballot_box_with_check: 6-1: _HTML & CSS - Forms_
 
-:black_large_square: 6-2: _JavaScript libraries and CSS Frameworks_
+::ballot_box_with_check: 6-2: _JavaScript libraries and CSS Frameworks_
 
-:black_large_square: 6-3: _CSS Flexbox - Part 1_
+::ballot_box_with_check: 6-3: _CSS Flexbox - Part 1_
 
-:black_large_square: 6-4: _CSS Flexbox - Part 2_
+::ballot_box_with_check: 6-4: _CSS Flexbox - Part 2_
 
-:black_large_square: 6-5: _Responsive CSS - Mobile First_
+::ballot_box_with_check: 6-5: _Responsive CSS - Mobile First_
 
-:black_large_square: 6-6: _Project - Trybewarts_
+::ballot_box_with_check: 6-6: _Project - Trybewarts_
 
 
 ### Part 7: JavaScript ES6 & Unit testing
 
 
-:black_large_square: 7-1: _JavaScript ES6 - let, const, arrow functions and template literals_
+::ballot_box_with_check: 7-1: _JavaScript ES6 - let, const, arrow functions and template literals_
 
-:black_large_square: 7-2: _JavaScript ES6 - Objects_
+::ballot_box_with_check: 7-2: _JavaScript ES6 - Objects_
 
-:black_large_square: 7-3: _Unit testing - JavaScript_
+::ballot_box_with_check: 7-3: _Unit testing - JavaScript_
 
-:black_large_square: 7-4: _Project - JavaScript Unit testing_
+::ballot_box_with_check: 7-4: _Project - JavaScript Unit testing_
 
 
 ### Part 8: Higher Order Functions do JavaScript ES6
 
-:black_large_square:8-1: _JavaScript ES6 - Introduction to Higher Order Functions_
+::ballot_box_with_check:8-1: _JavaScript ES6 - Introduction to Higher Order Functions_
 
-:black_large_square: 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+::ballot_box_with_check: 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
 
-:black_large_square: 8-3: _JavaScript ES6 - Higher Order Functions - map and filter_
+::ballot_box_with_check: 8-3: _JavaScript ES6 - Higher Order Functions - map and filter_
 
-:black_large_square: 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
+::ballot_box_with_check: 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
 
-:black_large_square: 8-5: _JavaScript ES6 - Spread operator, rest parameter, destructuring and more_
+::ballot_box_with_check: 8-5: _JavaScript ES6 - Spread operator, rest parameter, destructuring and more_
 
-:black_large_square: 8-5: _Project - Zoo functions_
+::ballot_box_with_check: 8-5: _Project - Zoo functions_
 
 
 ### Part 9: Asynchronous Javascript and Promises
 
-:black_large_square: 9-1: _JavaScript Async and Callbacks_
+::ballot_box_with_check: 9-1: _JavaScript Async and Callbacks_
 
-:black_large_square: 9-2: _JavaScript Promises_
+::ballot_box_with_check: 9-2: _JavaScript Promises_
 
-:black_large_square: 9-3: _Project - Shopping Cart_
+::ballot_box_with_check: 9-3: _Project - Shopping Cart_
 
 
 ### Part 10: Automate Testing using Jest
 
-:black_large_square: 10-1: _First steps with Jest_
+::ballot_box_with_check: 10-1: _First steps with Jest_
 
-:black_large_square: 10-2: _Testing Asynchronous using Jest_
+::ballot_box_with_check: 10-2: _Testing Asynchronous using Jest_
 
-:black_large_square: 10-3: _Jest - Simulating behaviors_
+::ballot_box_with_check: 10-3: _Jest - Simulating behaviors_
 
-:black_large_square: 10-4: _Project - Asynchronous Jest and Mocking_
+::ballot_box_with_check: 10-4: _Project - Asynchronous Jest and Mocking_
 
 
 ## Front-end development :hourglass_flowing_sand:
@@ -579,11 +579,11 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 ### Part 11: Introduction - React
 
-:black_large_square: 11-1: _'Hello, world!' with React!_
+::ballot_box_with_check: 11-1: _'Hello, world!' with React!_
 
-:black_large_square: 11-2: _React components_
+::ballot_box_with_check: 11-2: _React components_
 
-:black_large_square: 11-3: _Project - Movie Cards Library_
+::ballot_box_with_check: 11-3: _Project - Movie Cards Library_
 
 
 ### Part 12: Compenents with state, events and forms with React
