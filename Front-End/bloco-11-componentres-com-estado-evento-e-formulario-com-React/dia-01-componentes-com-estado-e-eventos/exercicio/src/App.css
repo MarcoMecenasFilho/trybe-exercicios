@@ -1,0 +1,18 @@
+.dvi{
+  background-color: rgb(243, 199, 142);
+  height: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn{
+  color: black;
+  width: 30%;
+  height: 100px;
+  border-radius: 10px;
+  background-color: brown;
+  font-weight: 700;
+  font-size: 70px;
+}
