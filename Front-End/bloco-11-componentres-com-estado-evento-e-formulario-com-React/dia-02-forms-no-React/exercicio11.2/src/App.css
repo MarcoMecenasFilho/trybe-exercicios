@@ -1,0 +1,14 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  height: 800px;
+}
+
+.div-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
